@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    
+    background: url(../img/2.jpg)no-repeat;
+    background-size: 10000vh;
+    background-position: cover;
+}
+.sidebar{
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    margin-top: -35px;
+    padding: 10px 30px 0px -30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 120vh;
+}
+.sidebar .profile_image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+.sidebar h2{
+    
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.sidebar h3{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.sidebar a{
+    color: #fff;
+    display: block;
+    width: 90%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+    background: #02333d;
+    margin: 10px;
+    border-radius: 30px;
+    color: white;
+}
+.sidebar i{
+    padding-right: 10px;
+}
+.content{
+
+    margin-left: 250px;  
+ 
+    max-height: 1000vh;
+    margin-right: 0px; 
+    margin-top: -50px;
+}
+.content1{
+    
+    margin-left: 250px;    
+    max-height: 1000vh; 
+    margin-right: 0px; 
+    margin-top: -50px;
+}
+.content3{
+
+    margin-left: 250px;  
+    max-height: 1000vh;
+    margin-right: 0px; 
+    margin-top: -50px;
+}
+.informacion{
+    margin-left: 60px;    
+    height: 100vh;
+    margin-right: 40px; 
+    margin-top: 50px;
+}
+.informacion h1{
+    font-family: serif;
+    color: white;
+    font-weight: 700;
+}
+.informacion h2{
+    font-family: serif;
+    color: white;
+    font-size: 15px;
+}
+label{
+    color: white;
+}
+form{
+    font-size: 20px;
+}
+.informacion1{
+    margin-left: 50px;    
+    height: 100vh;
+    margin-right: 40px; 
+    margin-top: 50px;
+}
+.informacion1 h1{
+    font-family: serif;
+    color: white;
+    font-weight: 700;
+}
+.informacion1 h2{
+    font-family: serif;
+    color: white;
+    font-size: 15px;
+}
+.fila label{
+font-size: 20px;
+}
+.fila input{
+    font-size: 20px;
+}
+
